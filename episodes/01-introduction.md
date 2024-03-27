@@ -23,7 +23,7 @@ exercises: 0
 ## What is machine learning?
 Machine learning is a set of tools and techniques which let us find patterns in data. This lesson will introduce you to only one of these techniques, **Deep Learning** with **Convolutional Neural Network**, abbreviated as **CNN**, but there are many more.
 
-The techniques break down into two broad categories, predictors and classifiers. Predictors are used to predict a value (or set of values) given a set of inputs whereas classifiers try to classify data into different categories, or assign a labelcond env.
+The techniques break down into two broad categories, predictors and classifiers. Predictors are used to predict a value (or set of values) given a set of inputs whereas classifiers try to classify data into different categories, or assign a label.
 
 Many, but not all, machine learning systems “learn” by taking a series of input data and output data and using it to form a model. The maths behind the machine learning doesn’t care what the data is as long as it can represented numerically or categorised. Some examples might include:
 
@@ -261,7 +261,7 @@ print('The class with the highest predicted probability is: ', class_names[resul
 
 # plot the image with its true label
 plt.imshow(test_images[0])
-plt.title('True class:' + class_names[test_labels[0])
+plt.title('True class:' + class_names[test_labels[0,0]])
 plt.show()
 ```
 
